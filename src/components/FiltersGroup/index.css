@@ -1,0 +1,75 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-container {
+  background-color: #f1f5f9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.search-el {
+  background-color: #f1f5f9;
+  border: none;
+  outline: none;
+  height: 44px;
+  width: 100%;
+}
+.search-icon {
+  color: #0f172a;
+}
+.filter-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 19px;
+  margin-top: 8%;
+}
+.list-categories {
+  padding-left: 0;
+  list-style-type: none;
+}
+.list-para-button {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 3%;
+  background-color: transparent;
+  border: none;
+  padding-left: 0px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.rating-image {
+  width: 70%;
+  margin-right: 3%;
+}
+.clear-filter-button {
+  background-color: white;
+  border: 2px solid #0967d2;
+  color: #0967d2;
+  font-family: 'Roboto';
+  border-radius: 3px;
+  height: 35px;
+  width: 95px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.active {
+  color: #0967d2;
+}
